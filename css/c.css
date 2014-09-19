@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-  font-size: 3.9998rem;
+  font-size: 2.4998rem;
 }
 
 footer {
@@ -40,4 +40,10 @@ a:hover,
 a:active,
 a:focus {
   color: white;
+}
+
+@media screen and (min-width: 48rem) {
+  h1 {
+    font-size: 3.9998rem;
+  }
 }
