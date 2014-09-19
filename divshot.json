@@ -1,3 +1,7 @@
 {
-  "name": "doesdouglikeit"
+  "name": "doesdouglikeit",
+  "root": "./",
+  "routes": {
+    "**": "index.html"
+  }
 }
