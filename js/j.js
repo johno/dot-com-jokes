@@ -84,7 +84,6 @@ function setDougResponse() {
     "Yeah, if you're a moron.",
     "Oh, I thought I was speaking to adults...",
     "If it's new, you like it. God damn hipster.",
-    "*Sigh*",
     "It's ruined.",
     "That's unusable.",
     "Only a child would like that."
