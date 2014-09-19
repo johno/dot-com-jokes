@@ -79,7 +79,7 @@ function setDougResponse() {
     "...",
     "It's for hipsters.",
     "No, you're wrong.",
-    "This page needs some link to the real me."
+    "This page needs some link to the real me.",
     "That looks awful.",
     "Yeah, if you're a moron.",
     "Oh, I thought I was speaking to adults...",
