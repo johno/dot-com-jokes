@@ -78,7 +78,8 @@ function setDougResponse() {
     "Sigh.",
     "...",
     "It's for hipsters.",
-    "No, you're wrong."
+    "No, you're wrong.",
+    "This page needs some link to the real me."
   ]
 
   texttype("text-div", responses[Math.floor(Math.random() * responses.length)], 100, 100);
