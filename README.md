@@ -4,7 +4,7 @@ No.
 
 ## Building the assets
 
-This project uses [gulp](http://gulpjs.com), an [npm](http://npmjs.org) package to build the
+This project uses [gulp](http://gulpjs.com), an [npm](http://npmjs.org) package, to build the
 assets. In order to minify the CSS and concatenate/uglify the js, you need to do the
 following:
 
