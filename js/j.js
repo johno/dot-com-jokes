@@ -76,10 +76,8 @@ function setDougResponse() {
     "I am losing the ability to tell when you guys are joking on this stuff.",
     "Fuck it.",
     "Sigh.",
-    "...",
     "It's for hipsters.",
     "No, you're wrong.",
-    "This page needs some link to the real me.",
     "That looks awful.",
     "Yeah, if you're a moron.",
     "Oh, I thought I was speaking to adults...",
@@ -87,7 +85,8 @@ function setDougResponse() {
     "It's ruined.",
     "That's unusable.",
     "Only a child would like that.",
-    "That really sounds like something I don't give a shit about."
+    "That really sounds like something I don't give a shit about.",
+    "No."
   ]
 
   texttype("text-div", responses[Math.floor(Math.random() * responses.length)], 100, 100);
