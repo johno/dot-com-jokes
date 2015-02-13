@@ -86,7 +86,8 @@ function setDougResponse() {
     "That's unusable.",
     "Only a child would like that.",
     "That really sounds like something I don't give a shit about.",
-    "No."
+    "No.",
+    "It's good if you like things that suck."
   ]
 
   texttype("text-div", responses[Math.floor(Math.random() * responses.length)], 100, 100);
