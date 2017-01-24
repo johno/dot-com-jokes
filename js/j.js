@@ -89,7 +89,8 @@ function setDougResponse() {
     "No.",
     "It's good if you like things that suck.",
     "I'm having an internal debate with myself as to whether to accept this constraint as a given or melt down in a fire of ridiculousness.",
-    "Nine levels of my brain just seg-faulted at once."
+    "Nine levels of my brain just seg-faulted at once.",
+    "Fuck me with a chainsaw."
   ]
 
   texttype("text-div", responses[Math.floor(Math.random() * responses.length)], 100, 100);
