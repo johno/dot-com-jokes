@@ -8,7 +8,7 @@
     "start": "x0 No",
     "build": "x0 build No -d dist",
     "deploy": "npm run build && cd dist && now && cd ..",
-    "format": "prettier --no-semi --write *.js",
+    "format": "prettier --no-semi --single-quote --write *.js",
     "test": "echo 'my code never needs tests, it is perfect'"
   },
   "devDependencies": {
@@ -16,6 +16,9 @@
     "prettier": "^1.11.1"
   },
   "dependencies": {
-    "react-typing-animation": "^1.2.1"
+    "random-a11y-combo": "^1.0.0",
+    "react-typing-animation": "^1.2.1",
+    "styled-components": "^3.2.3",
+    "styled-system": "^2.2.1"
   }
 }
