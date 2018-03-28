@@ -1,7 +1,7 @@
 import React from 'react'
 import randomCombo from 'random-a11y-combo'
 
-import { normalizeHref } from './constants'
+import { css } from './constants'
 
 const boxStyles = {
   minHeight: '100vh',
@@ -11,6 +11,10 @@ const boxStyles = {
   fontSize: '40px',
   fontFamily: 'sans-serif',
   padding: '20px'
+}
+
+const textStyles = {
+  maxWidth: '24em'
 }
 
 export const Layout = ({ children }) => {
@@ -23,8 +27,11 @@ export const Layout = ({ children }) => {
   return (
     <div style={style}>
       <title>No.</title>
-      <link rel='stylesheet' href={normalizeHref} />
-      {children}
+      <style children={css} />
+
+      <div style={textStyles}>
+        {children}
+      </div>
     </div>
   )
 }

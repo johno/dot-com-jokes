@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Typing from 'react-typing-animation'
+import Typist from 'react-typist'
 
 import { dougisms } from './constants'
 import { random } from './util'
@@ -15,9 +15,9 @@ class No extends Component {
 
     return (
       <Layout>
-        <Typing typing={1}>
+        <Typist>
           {dougism}
-        </Typing>
+        </Typist>
       </Layout>
     )
   }

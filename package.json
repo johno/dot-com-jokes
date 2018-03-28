@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "random-a11y-combo": "^1.0.0",
-    "react-typing-animation": "^1.2.1"
+    "react-typist": "^2.0.4"
   }
 }
