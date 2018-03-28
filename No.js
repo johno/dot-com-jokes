@@ -15,9 +15,7 @@ class No extends Component {
 
     return (
       <Layout>
-        <Typist>
-          {dougism}
-        </Typist>
+        <Typist>{dougism}</Typist>
       </Layout>
     )
   }

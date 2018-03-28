@@ -18,7 +18,7 @@ const textStyles = {
 }
 
 export const Layout = ({ children }) => {
-  const [ backgroundColor, color ] = randomCombo()
+  const [backgroundColor, color] = randomCombo()
   const style = Object.assign({}, boxStyles, {
     backgroundColor,
     color
@@ -29,9 +29,7 @@ export const Layout = ({ children }) => {
       <title>No.</title>
       <style children={css} />
 
-      <div style={textStyles}>
-        {children}
-      </div>
+      <div style={textStyles}>{children}</div>
     </div>
   )
 }
