@@ -1,7 +1,0 @@
-{
-  "name": "doesdouglikeit",
-  "root": "./",
-  "routes": {
-    "**": "index.html"
-  }
-}

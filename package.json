@@ -1,32 +1,19 @@
 {
   "name": "doesdouglikeit.com",
-  "version": "0.0.1",
-  "description": "Considerations by @dougwig.",
+  "private": true,
+  "repository": "johno/doesdouglikeit",
+  "description": "Considerations from Doug",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "x0 No",
+    "format": "prettier --no-semi --write *.js",
+    "test": "echo 'my code never needs tests, it is perfect'"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/johnotander/doesdouglikeit.com.git"
-  },
-  "keywords": [
-    "doug"
-  ],
-  "author": "John Otander <johnotander@gmail.com> (http://johnotander.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/johnotander/doesdouglikeit.com/issues"
-  },
-  "homepage": "https://github.com/johnotander/doesdouglikeit.com",
   "devDependencies": {
-    "gulp": "^3.8.8",
-    "gulp-autoprefixer": "^1.0.0",
-    "gulp-concat": "^2.4.1",
-    "gulp-csslint": "^0.1.5",
-    "gulp-jshint": "^1.8.4",
-    "gulp-minify-css": "^0.3.10",
-    "gulp-rename": "^1.2.0",
-    "gulp-uglify": "^1.0.1"
+    "@compositor/x0": "^4.0.1",
+    "prettier": "^1.11.1"
+  },
+  "dependencies": {
+    "react-typing-animation": "^1.2.1"
   }
 }
