@@ -1,0 +1,19 @@
+{
+  "name": "doesdouglikeit.com",
+  "private": true,
+  "repository": "johno/doesdouglikeit",
+  "description": "Considerations from Doug",
+  "main": "index.js",
+  "scripts": {
+    "start": "x0 No",
+    "format": "prettier --no-semi --write *.js",
+    "test": "echo 'my code never needs tests, it is perfect'"
+  },
+  "devDependencies": {
+    "@compositor/x0": "^4.0.1",
+    "prettier": "^1.11.1"
+  },
+  "dependencies": {
+    "react-typing-animation": "^1.2.1"
+  }
+}
