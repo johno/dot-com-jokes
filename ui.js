@@ -1,33 +1,30 @@
 import React from 'react'
-import styled from 'styled-components'
 import randomCombo from 'random-a11y-combo'
-import { color, fontSize, space } from 'styled-system'
 
 import { normalizeHref } from './constants'
 
-export const Box = styled.div`
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  ${fontSize};
-  ${space};
-  ${color}
-`
+const boxStyles = {
+  minHeight: '100vh',
+  width: '100%',
+  display: 'flex',
+  alignItems: 'center',
+  fontSize: '40px',
+  fontFamily: 'sans-serif',
+  padding: '20px'
+}
 
 export const Layout = ({ children }) => {
   const [ backgroundColor, color ] = randomCombo()
+  const style = Object.assign({}, boxStyles, {
+    backgroundColor,
+    color
+  })
 
   return (
-    <Box
-      color={color}
-      bg={backgroundColor}
-      f={[3, 4, 5]}
-      p={[2, 3, 4]}
-    >
+    <div style={style}>
       <title>No.</title>
       <link rel='stylesheet' href={normalizeHref} />
       {children}
-    </Box>
+    </div>
   )
 }
