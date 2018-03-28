@@ -1,8 +1,9 @@
-import React, { Component } from "react"
-import Typing from "react-typing-animation"
+import React, { Component } from 'react'
+import Typing from 'react-typing-animation'
 
-import { dougisms } from "./constants"
-import { random } from "./util"
+import { dougisms } from './constants'
+import { random } from './util'
+import { Layout } from './ui'
 
 class No extends Component {
   state = {
@@ -13,9 +14,11 @@ class No extends Component {
     const { dougism } = this.state
 
     return (
-      <div>
-        <Typing typing={1}>{dougism}</Typing>
-      </div>
+      <Layout>
+        <Typing typing={1}>
+          {dougism}
+        </Typing>
+      </Layout>
     )
   }
 }
