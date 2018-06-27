@@ -26,7 +26,7 @@ export const Layout = ({ children }) => {
 
   return (
     <div style={style}>
-      <title>No.</title>
+      <title>Lots of things</title>
       <style children={css} />
 
       <div style={textStyles}>{children}</div>
