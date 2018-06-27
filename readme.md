@@ -1,4 +1,9 @@
 # .com jokes
 
-- doesdouglikeit.com
-- stuffnicklikes.com
+Silly sites for friends.
+
+- [doesdouglikeit.com][doug]
+- [stuffnicklikes.com][nick]
+
+[doug]: https://doesdouglikeit.com
+[nick]: https://stuffnicklikes.com
