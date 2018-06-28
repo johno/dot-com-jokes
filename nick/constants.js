@@ -2,7 +2,12 @@ export const stuff = [
   'Blue Bottle pour over single cupper, made in Japan',
   'Coffee: 25g dose. 5 rounds of 70g of water, with 30 seconds in between.',
   'Beep boop music',
-  'Sous vide'
+  'Sous vide',
+  'Keyclacks',
+  'Leopold mechanical keyboard with Topre switches, custom spacebar, and a LandCaps Esc key',
+  'Vim with Vundle, vim-fugitive, Ctrl+P, vim-rails, vim-airline, TagHighlight, vim-flavored-markdown, and vim-markdown-preview',
+  'Uniqlo UT Graphic Tees featuring Blizzard\'s award-winning game franchises',
+  'spaces'
 ]
 
 export const css = `
