@@ -23,7 +23,8 @@ export const dougisms = [
   "I'm having an internal debate with myself as to whether to accept this constraint as a given or melt down in a fire of ridiculousness.",
   'Nine levels of my brain just seg-faulted at once.',
   'Fuck me with a chainsaw.',
-  'I just want something usable.'
+  'I just want something usable.',
+  "I don't take musical advice from someone whose musical taste sounds like two toddlers whining for more pudding."
 ]
 
 export const css = `
