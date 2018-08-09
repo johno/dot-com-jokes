@@ -25,7 +25,8 @@ export const dougisms = [
   'Fuck me with a chainsaw.',
   'I just want something usable.',
   "I don't take musical advice from someone whose musical taste sounds like two toddlers whining for more pudding.",
-  "Sometimes things suck so much that they're not work appropriate."
+  "Sometimes things suck so much that they're not work appropriate.",
+  'Fuck a duck.'
 ]
 
 export const css = `

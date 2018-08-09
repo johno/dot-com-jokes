@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "start": "x0 No",
-    "build": "x0 build No -d dist",
-    "deploy": "npm run build && cd dist && now && cd ..",
+    "build": "x0 build No.js -d dist",
+    "deploy": "npm run build && now dist --static && now alias $(pbpaste) doesdouglikeit.com",
     "format": "prettier --no-semi --single-quote --write *.js",
     "test": "echo 'my code never needs tests, it is perfect'"
   },
