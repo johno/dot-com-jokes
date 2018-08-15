@@ -7,7 +7,12 @@ export const stuff = [
   'Leopold mechanical keyboard with Topre switches, custom spacebar, and a LandCaps Esc key',
   'Vim with Vundle, vim-fugitive, Ctrl+P, vim-rails, vim-airline, TagHighlight, vim-flavored-markdown, and vim-markdown-preview',
   'Uniqlo UT Graphic Tees featuring Blizzard\'s award-winning game franchises',
-  'spaces'
+  'spaces',
+  'croquetas',
+  'DoorDash',
+  'ENO OneLink Shelter System with DoubleNest Hammock',
+  'Klymit Static V Lightweight Sleeping Pad',
+  'GoLite UltraLite +20 Quilt Sleeping Bag'
 ]
 
 export const css = `
